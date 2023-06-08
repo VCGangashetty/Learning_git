@@ -4,8 +4,9 @@
 if [[ `expr $1 % 2` -eq 0 ]] ; then
  echo "$1 is even number"
 else
- echo "$1 is odd number, Enter even please"
+ echo "$1 is odd number. do ypu get it"
 fi
 
-echo "Checking merge conflict by develop2"
+echo "Changed by develop1"
+
 
